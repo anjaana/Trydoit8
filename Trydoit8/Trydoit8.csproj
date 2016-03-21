@@ -83,8 +83,10 @@
     <Content Include="Global.asax" />
     <Content Include="Styles\css\bootstrap.min.css" />
     <Content Include="Styles\css\ie10-viewport-bug-workaround.css" />
+    <Content Include="Styles\css\remove.css" />
     <Content Include="Styles\css\starter-template.css" />
     <Content Include="Styles\Images\favicon.ico" />
+    <Content Include="Styles\Images\maxresdefault.jpg" />
     <Content Include="Styles\js\bootstrap.min.js" />
     <Content Include="Styles\js\ie-emulation-modes-warning.js" />
     <Content Include="Styles\js\ie10-viewport-bug-workaround.js" />
@@ -93,7 +95,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\StartpageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -102,7 +107,12 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
-    <Content Include="Views\Default\Index.cshtml" />
+    <Content Include="Views\About\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
+    <Content Include="Views\Startpage\Index.cshtml" />
+    <Content Include="Views\Layouts\Layout.cshtml" />
+    <Content Include="Views\Home\asdasd.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

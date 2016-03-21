@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace Trydoit8.Controllers
 {
-    public class DefaultController : Controller
+    public class StartpageController : Controller
     {
-        // GET: Default
+        // GET: Startpage
         public ActionResult Index()
         {
             return View();
