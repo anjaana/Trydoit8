@@ -112,7 +112,6 @@
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Startpage\Index.cshtml" />
     <Content Include="Views\Layouts\Layout.cshtml" />
-    <Content Include="Views\Home\asdasd.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
